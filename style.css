@@ -152,12 +152,13 @@ ul li a {
   border-radius: 8px;
 
   backdrop-filter: blur(4px);
+  /* utilizar -webkit pois nem todo navegador aceita o backdrop-filter comum*/
   -webkit-backdrop-filter: blur(4px);
 
   text-decoration: none;
   font-weight: 500;
   
-  transition: background 0.5s;
+  transition: background 0.2s;
 }
 
 /*pseudo-selector*/
